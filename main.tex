@@ -1,0 +1,35 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{MakeFrontEnd}
+\author{Nohai Ionuț Bogdănel}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Pentru a crea design-ul unei pagini web dezvoltatorii începeau să lucreze în crearea de schițe, după aceea făceau un desen în anumite programe cum ar fi Adobe Photoshop. De aici urma munca la implementarea design-ului respectiv scriind cod HTML, CSS și JavaScript. Problema era că o parte din timp îl petreceau lucrând la acel ultim pas, încercând să scrie cod cât mai optimizat.  
+
+Aplicația MakeFrontEnd este un instrument web ce oferă dezvoltatorilor oportunitatea de a se concentra în totalitate pe crearea designului unei pagini web, în același timp codul fiind generat. În plus, aplicația oferă o platformă pe care artiștii în web design își pot expune creațiile pentru a primi feedback, ba chiar ținându-se competiții pentru cele mai apreciate design-uri. Din punct de vedere practic utilizatorului i se oferă un set de meniuri și setări pe care le poate folosi pentru a desena pe o pagină albă elementele dorite și a le modifica, a le stiliza și a le adăuga un comportament.  
+
+Pentru realizarea acestei aplicații am dezvoltat un sistem cu arhitectura urmatoare:  un reverse proxy și load balancer penctru care am folosit nginx, un server pentru autentificarea utilizatorilor, un server pentru crearea schițelor utilizatorilor, un server pentru  generarea  codului HTML, CSS și JavaScript pentru schițele desenate de utilizatori și  un server pentru platforma care găzduiește creațiile artiștilor. Pentru implementarea serverelor am folosit Node.js. 
+
+
+\end{abstract}
+
+
+
+\end{document}
